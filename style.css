@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     font-family: "Original Surfer", sans-serif;
     letter-spacing: 3px;
@@ -38,7 +38,7 @@ nav {
 nav a {
     color: #333333;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Lato", sans-serif;
     font-weight: 500;
     transition: color 0.2s ease;
@@ -84,7 +84,7 @@ nav a:hover {
     justify-content: center;
     border-radius: 50%;
     background: #f7f7f7;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .hero {
@@ -103,7 +103,7 @@ nav a:hover {
 
 .hero-label {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Lato", sans-serif;
     font-weight: 600;
     letter-spacing: 3px;
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-family: "Original Surfer", sans-serif;
     font-size: clamp(48px, 5vw, 72px);
     font-weight: 400;
