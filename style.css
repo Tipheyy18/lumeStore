@@ -587,6 +587,13 @@ footer {
     margin-top: 10px;
 }
 
+.checkout-button:disabled {
+    background-color: #d6d0c7;
+    color: #ffffff;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
 .modal {
     position: fixed;
     inset: 0;

@@ -421,6 +421,9 @@ const checkoutButton = document.getElementById ("checkout-button");
 const checkoutModal = document.getElementById ("checkout-modal");
 
 checkoutButton.addEventListener("click", () => {
+    if (cart.length === 0) {
+        return;
+    }
     checkoutModal.classList.add("open");
 });
 
